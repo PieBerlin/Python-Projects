@@ -7,11 +7,12 @@ Returns:
 """
 
 import random
+import string
 
 # Constants
 SMALL_LETTERS = "abcdefghijklmnopqrstuvwxyz"
 CAPITAL_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-SYMBOLS = "~!@#$%^&*()_-+={[}]|:;<>?"
+SYMBOLS = string.punctuation 
 MIN_LENGTH = 12
 MAX_LENGTH = 24
 
